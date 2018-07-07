@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		ECA9548220F0377600389DF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA9548120F0377600389DF4 /* AppDelegate.swift */; };
-		ECA9548420F0377600389DF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA9548320F0377600389DF4 /* ViewController.swift */; };
 		ECA9548720F0377600389DF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA9548520F0377600389DF4 /* Main.storyboard */; };
 		ECA9548920F0377700389DF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA9548820F0377700389DF4 /* Assets.xcassets */; };
 		ECA9548C20F0377700389DF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA9548A20F0377700389DF4 /* LaunchScreen.storyboard */; };
+		ECA9549420F0395300389DF4 /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA9549320F0395300389DF4 /* ColorsViewController.swift */; };
+		ECA9549620F03E8F00389DF4 /* color.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA9549520F03E8F00389DF4 /* color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ECA9547E20F0377600389DF4 /* Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECA9548120F0377600389DF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ECA9548320F0377600389DF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ECA9548620F0377600389DF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECA9548820F0377700389DF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECA9548B20F0377700389DF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECA9548D20F0377700389DF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECA9549320F0395300389DF4 /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
+		ECA9549520F03E8F00389DF4 /* color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				ECA9548120F0377600389DF4 /* AppDelegate.swift */,
-				ECA9548320F0377600389DF4 /* ViewController.swift */,
+				ECA9549320F0395300389DF4 /* ColorsViewController.swift */,
 				ECA9548520F0377600389DF4 /* Main.storyboard */,
 				ECA9548820F0377700389DF4 /* Assets.xcassets */,
 				ECA9548A20F0377700389DF4 /* LaunchScreen.storyboard */,
 				ECA9548D20F0377700389DF4 /* Info.plist */,
+				ECA9549520F03E8F00389DF4 /* color.swift */,
 			);
 			path = Colors;
 			sourceTree = "<group>";
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECA9548420F0377600389DF4 /* ViewController.swift in Sources */,
+				ECA9549620F03E8F00389DF4 /* color.swift in Sources */,
+				ECA9549420F0395300389DF4 /* ColorsViewController.swift in Sources */,
 				ECA9548220F0377600389DF4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
